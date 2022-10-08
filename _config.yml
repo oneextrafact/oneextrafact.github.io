@@ -28,9 +28,11 @@ twitter_username: oneextrafact
 github_username:  oneextrafact
 
 # Build settings
-theme: minima
+# theme: minima
+remote-theme: "nmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
