@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: One Extra Fact
+subtitle: Ninety percent of most magic merely consists of knowing one extra fact - Terry Pratchett
 email: 1extrafact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about data by Dave Gallagher, data engineer and sometime data scientist.
@@ -33,6 +34,29 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Site Author
+author:
+  name             : "Dave Gallagher"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "An assortment of talents that occasionally synergize in nice ways"
+  location         : "Bellmore, NY"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:1extrafact@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://oneextrafact.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/oneextrafact"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/oneextrafact"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +77,17 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true

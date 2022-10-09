@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Hi there! Thanks for visiting my blog, which is a work in progress as I learn more about Jekyll and static site generation. Lots of good stuff within. Maybe some of my woodworking stuff if you're unlucky.
