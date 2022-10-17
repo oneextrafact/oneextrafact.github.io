@@ -22,7 +22,7 @@ title: One Extra Fact
 subtitle: Ninety percent of most magic merely consists of knowing one extra fact - Terry Pratchett
 email: 1extrafact@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about data by Dave Gallagher, data engineer and sometime data scientist.
+  A blog about data by Dave Gallagher, data engineer and sometime data scientist working to build a Python community on Long Island. Ask me about Python!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://oneextrafact.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: oneextrafact
@@ -39,9 +39,9 @@ plugins:
 author:
   name             : "Dave Gallagher"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "An assortment of talents that occasionally synergize in nice ways"
+  bio              : "An assortment of unusual knowledge and talents that occasionally synergize in nice ways"
   location         : "Bellmore, NY"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
