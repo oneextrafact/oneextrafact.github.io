@@ -31,9 +31,11 @@ github_username:  oneextrafact
 # Build settings
 # theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 
 # Site Author
 author:
@@ -56,6 +58,15 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/oneextrafact"
 
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 
 # Exclude from processing.
